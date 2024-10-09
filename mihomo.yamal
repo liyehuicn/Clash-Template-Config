@@ -174,9 +174,9 @@ proxy-groups:
   - {name: ♻️ 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^((?!(直连)).)*$"}
   - {name: 🌐 全部节点, type: select, include-all: true}
 rules:
-  - RULE-SET,private_domain,🟢 直连
-  - RULE-SET,direct1,🟢 直连
-  - RULE-SET,apple_domain,🍎 Apple
+  - RULE-SET,private_domain,🟢 直连,no-resolve
+  - RULE-SET,direct1,🟢 直连,no-resolve
+  - RULE-SET,apple_domain,🍎 Apple,no-resolve
   - RULE-SET,free,🔗 链式代理
   - RULE-SET,proxylite,🚀 节点选择
   - RULE-SET,ai,🤖 ChatGPT
@@ -185,17 +185,17 @@ rules:
   - RULE-SET,google_domain,🍀 Google
   - RULE-SET,onedrive_domain,🐬 OneDrive
   - RULE-SET,microsoft_domain,🪟 Microsoft
-  - RULE-SET,tiktok_domain,🎵 TikTok
+  - RULE-SET,tiktok_domain,🎵 TikTok,no-resolve
   - RULE-SET,speedtest_domain,✈️ Speedtest
   - RULE-SET,telegram_domain,📲 Telegram
   - RULE-SET,netflix_domain,🎥 NETFLIX
   - RULE-SET,paypal_domain,💶 PayPal
   - RULE-SET,geolocation-!cn,🚀 节点选择
-  - RULE-SET,cn_domain,🎯 全球直连
+  - RULE-SET,cn_domain,🎯 全球直连,no-resolve
   - RULE-SET,google_ip,🍀 Google,no-resolve
   - RULE-SET,netflix_ip,🎥 NETFLIX,no-resolve
   - RULE-SET,telegram_ip,📲 Telegram,no-resolve
-  - RULE-SET,cn_ip,🎯 全球直连
+  - RULE-SET,cn_ip,🎯 全球直连,no-resolve
   - MATCH,🚀 节点选择
 rule-anchor:
   ip: &ip {type: http, interval: 86400, behavior: ipcidr, format: mrs}
