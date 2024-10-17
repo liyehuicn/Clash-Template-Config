@@ -1,4 +1,4 @@
-var proxy = 'PROXY 127.0.0.1:40000;DIRECT;';
+var proxy = 'PROXY 127.0.0.1:7890;DIRECT;';
 var rules = [
     [
         [],
