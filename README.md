@@ -20,6 +20,7 @@
 + [Adobe](https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Adobe.yaml)
 + [Amazon](https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Amazon.yaml)
 + [Apple](https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Apple.yaml)
++ [Aria2](https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Aria2.yaml)
 + [BiliBili](https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Bilibili.yaml)
 + [China](https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/China.yaml)
 + [Claude](https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Claude.yaml)
